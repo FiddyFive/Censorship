@@ -1,0 +1,28 @@
+.faceToolBody {
+  margin-top: 1rem;
+  width: 111%; /* 1/0.9ish */
+  display: grid;
+  grid-template-areas: "a a a" ". u ." "l c r" ". d .";
+  justify-items: center;
+}
+
+.faceToolBody img {
+  width: 100%;
+  grid-area: a;
+}
+
+.up {
+  grid-area: u;
+}
+.down {
+  grid-area: d;
+}
+.left {
+  grid-area: l;
+}
+.right {
+  grid-area: r;
+}
+.center {
+  grid-area: c;
+}
